@@ -1,0 +1,46 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+
+# ===== 密钥与本地配置（千万不要上传）=====
+.env
+.env.*
+!.env.example
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== 数据与模型 =====
+# 原始数据体积大，而且可能有版权，不放进 git
+data/raw/
+data/cache/
+*.pdf
+# 模型权重文件
+*.pt
+*.pth
+*.ckpt
+*.bin
+checkpoints/
+
+# ===== 日志 =====
+logs/
+*.log
+
+# ===== 编辑器与系统文件 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ===== Syncthing =====
+.stfolder/
+.stversions/
+*.sync-conflict-*
