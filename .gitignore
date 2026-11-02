@@ -20,6 +20,7 @@ env/
 
 # ===== 数据与模型 =====
 # 原始数据体积大，而且可能有版权，不放进 git
+data/
 data/raw/
 data/cache/
 *.pdf
